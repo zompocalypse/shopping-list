@@ -31,6 +31,10 @@ function handleShoppingListChecks(){
   });
 }
 
-$(handleShoppingListAdds);
-$(handleShoppingListDeletes);
-$(handleShoppingListChecks);
+function main(){
+  handleShoppingListAdds();
+  handleShoppingListDeletes();
+  handleShoppingListChecks();
+}
+
+$(main);
